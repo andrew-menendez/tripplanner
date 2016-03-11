@@ -27,7 +27,7 @@ router.get('/', function(req, res, next) {
   }).then(function(success){
 
 
-      res.render('index',{Hotels:foundHotels, Activities:foundActiv,Restaurants:foundRest})
+      res.render('index',{Hotels:foundHotels, Activities:foundActiv, Restaurants:foundRest})
   }).catch(function(err){
     console.log(err);
     debugger
