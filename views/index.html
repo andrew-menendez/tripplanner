@@ -2,27 +2,45 @@
 
 {% block content %}
 
-<h3> the hotels</h3>
-  {% for hotel in Hotels %}
-
-  <p>{{hotel.name}}</p>
-
-  {% endfor %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
 
 
-<h3> the Restaurants</h3>
-  {% for acti in Activities %}
-
-  <p>{{acti.name}}</p>
-
-  {% endfor %}
+      <div class="box">
+        .col-md-8
+        <h3>Map Area</h3>
+      </div>
 
 
-  <h3> the Activities</h3>
-  {% for rest in Restaurants %}
+    </div>
+    <div class="col-md-4">
 
-  <p>{{rest.name}}</p>
+        <div class="box-wrap">
+            <div class="smallbox">
+            .col-md-4
+            <h3>Today Section</h3>
+            </div>
+            <h2>Day 2</h2>
+            <div class="smallbox">
+            .col-md-4
+             <h3>Other Widget</h3>
+             My Hotel
+               <ul>
+               <li> hotel xyz</li>
+               </ul>
+            My Rest
+               <ul>
+               <li> rest xyz</li>
+               </ul>
+            My Actives
+               <ul>
+               <li> Actives xyz</li>
+               </ul>
+            </div>
+        </div>
+    </div>
 
-  {% endfor %}
-
+  </div>
+</div>
 {% endblock %}

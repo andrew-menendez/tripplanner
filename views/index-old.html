@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h3> the hotels</h3>
+  {% for hotel in Hotels %}
+
+  <p>{{hotel.name}}</p>
+
+  {% endfor %}
+
+
+<h3> the Restaurants</h3>
+  {% for acti in Activities %}
+
+  <p>{{acti.name}}</p>
+
+  {% endfor %}
+
+
+  <h3> the Activities</h3>
+  {% for rest in Restaurants %}
+
+  <p>{{rest.name}}</p>
+
+  {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,24 @@
+
+.box {
+  border: 1px solid black;
+  margin: 10px;
+  height: 600px;
+  text-align: center;
+
+}
+
+/*.box-wrap {
+  height: 600px
+}*/
+
+.smallbox {
+  border: 1px solid black;
+  margin: 10px;
+  height: 260px;
+  text-align: left;
+
+}
+
+h3 {
+   text-align: center;
+}
